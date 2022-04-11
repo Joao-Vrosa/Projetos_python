@@ -1,0 +1,14 @@
+	
+# Problema 10 - Aplicação Financeira
+
+# Desenvolva um algoritmo e um fluxograma para um programa que permita com que o usuário possa entrar
+# com o saldo inicial de uma aplicação financeira e o número de meses da aplicação
+# O programa deverá imprimir o novo saldo, considerando o reajuste de 1% ao mês (juros simples).
+
+saldoInicial = float(input("Incira o valor inicial: "))
+
+meses = float(input("Incira os meses da aplicação: "))
+
+juros = saldoInicial * meses * 1/100
+
+print("O seu saldo final é: ", juros + saldoInicial)
