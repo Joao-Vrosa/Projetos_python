@@ -25,6 +25,8 @@ else:
     else:
         print("Maior valor: ", valor3)
         
+# Lógica invertida:
+        
 if valor1 <= valor2: # LOGICA -> Verificar qual o menor valor
     if valor1 <= valor3:
         print("Menor valor: ", valor1)
